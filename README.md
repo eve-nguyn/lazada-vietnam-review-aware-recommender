@@ -51,3 +51,49 @@ src/           → Reusable pipeline modules
 data/          → Dataset storage
 models/        → Saved embeddings and artifacts
 outputs/       → Evaluation results and visualizations
+```
+## Evaluation Metrics
+
+- Precision@K
+- Semantic Coherence
+- Diversity
+- Coverage
+- Average Trust Score
+- Average Product Rating
+- Mall Ratio
+
+## Pipeline
+
+Vietnamese Reviews
+        ↓
+NLP Preprocessing
+        ↓
+Embedding Generation
+        ↓
+Retrieval Architecture
+        ↓
+Hybrid Fusion (RRF)
+        ↓
+Business-Aware Reranking
+        ↓
+Evaluation Framework
+
+## Dataset
+
+The dataset contains Vietnamese e-commerce product information including:
+- Product titles
+- Product descriptions
+- Ratings
+- Reviews
+- Brand information
+- Price information
+- Trust-related metadata
+
+# Future Improvements
+
+- Real-time recommendation serving
+- FAISS vector search integration
+- User-personalized recommendation
+- Session-aware recommendation
+- Multimodal recommendation with images
+- LLM-based recommendation explanation
